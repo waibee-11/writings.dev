@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232830;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Utility classes */
+
+.container{
+    margin-inline: 30px; 
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 1680px;
+    height: 3px;
+    opacity: 0.2;
+    background: #4D4D4D;
+}
+
+/* Navbar */
+
+.navbar-container{
+    padding-top: 90px;
+}
+
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-title{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.navbar-links{
+    gap: 36px;
+    align-items: center;
+}
+
+.navbar-link{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Main image */
+
+.main-image-container{
+    margin-top: 73px;
+}
+
+.main-img{
+    width: 194.445px;
+    height: 204.084px;
+    flex-shrink: 0; 
+}
+
+/* Main heading */
+
+.main-heading-container{
+    margin-top: 40.92px;
+}
+
+.main-heading{
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.main-hdg{
+    color: #FF7575;
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-hdg{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line-1{
+    margin-top: 99px;
+}
+
+/* Options */
+
+.options-container{
+    margin-top: 19px;
+}
+
+.options{
+    gap: 36px;
+}
+
+.option{
+    color: #909090;
+    font-family: Recursive;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.selected{
+    color:#FF7575;
+}
+
+/* Img Grid */
+
+.img-grid-container{
+    margin-top: 108px;
+}
+
+.img-grid{
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.img-box{
+    gap: 20px;
+    flex-basis: 25%;
+    flex-direction: column;
+    padding: 23px;
+    background-color: white;
+    border-radius: 22px 22px;
+}
+
+.box-text{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-heading{
+    color: #0F1217;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box-content{
+    color: #0F1217;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-info{
+    gap: 20px;
+}
+
+.date{
+    color: #0F1217;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.category{
+    color: #0F1217;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Pages */
+
+.pages-container{
+    margin-top: 120px;
+}
+
+.pages{
+    gap: 43px;
+}
+
+.page{
+    padding-block: 5px;
+    color: #909090;font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page-selected{
+    color: #FF7575;
+}
+
+.line-2{
+    margin-top: 157px;
+}
+
+/* Footer */
+
+.footer-container{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.footer{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-group{
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-title{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-credits{
+    padding-inline: 13px;
+    padding-block: 3px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-follow{
+    padding-block: 3px;
+    padding-inline: 13px;
+    background-color: #4699E0;
+    gap: 11px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.twitter-logo{
+    width: 20px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.footer-follow-text{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
